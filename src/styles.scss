@@ -32,19 +32,6 @@ body{
         color: red;
     }
 
-    button{
-        margin-top: 1rem;
-        height: 2rem;
-        width: 5rem;
-        position: absolute;
-        top: 70%;
-        left: 75%;
-
-        &:hover{
-            cursor: pointer;
-        }
-    }
-
     fieldset{
         border: none;
         width: 80%;
@@ -66,6 +53,28 @@ body{
 
     .d-none{
         display: none;
+    }
+
+    #next{
+        margin-top: 1rem;
+        height: 2rem;
+        width: 5rem;
+        position: absolute;
+        top: 70%;
+        left: 75%;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    #prev{
+        margin-top: 1rem;
+        height: 2rem;
+        width: 5rem;
+        position: absolute;
+        top: 70%;
+        left: 10%;
     }
    
 }
